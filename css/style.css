@@ -5,10 +5,10 @@
 /* Overall */
 #logo{
   position: fixed;
-  top: 100px;
-  left: 60px;
+  top: 20px;
+  left: 30px;
   font-size: 32px;
-  
+
 }
 html {
     scroll-behavior: smooth;
@@ -20,7 +20,16 @@ body {
   color: #274b48;
 
 }
-
+#heroText{
+  text-align: center;
+margin-top: 40vh;
+}
+.caseStudy{
+  background-color: blanchedalmond;
+  height: 200px;
+  width: 100%; 
+  margin-bottom: 20px;
+}
 
 /* Typography */ 
 h1 {
@@ -74,5 +83,13 @@ a {color:#274b48;
 /* Page Layout */
 .section {
     min-height: 100vh;
+  }
+  #bio{background-image: url('https://scontent.fhnl3-1.fna.fbcdn.net/v/t39.30808-6/346313149_165054229595171_6431088297017304525_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=8sZCwlE7aR0AX_YPrIC&_nc_ht=scontent.fhnl3-1.fna&oh=00_AfDhmSEDlDRTm11iCrcSQDMJieYClnkYG2y3EVZkr7xh5w&oe=648C95F1');
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+  #cv{
+    background-color: #3aeee2;
   }
   
