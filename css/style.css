@@ -3,13 +3,22 @@
 /* Variables */
 
 /* Overall */
-
+#logo{
+  position: fixed;
+  top: 100px;
+  left: 60px;
+  font-size: 32px;
+  
+}
 html {
+    scroll-behavior: smooth;
   
 }
 
 body {
-  
+  background-color: #3aeee2;
+  color: #274b48;
+
 }
 
 
@@ -38,6 +47,32 @@ p {
 
 }
 
-a {
+a {color:#274b48;
 
 }
+/* nav */
+#nav{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+#nav li{
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 40px;
+
+}
+#nav li:hover {
+    color: #ea925e;
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+    border-bottom: 2px solid #ea925e;
+}
+  /*  transform: rotate(20deg);/*
+
+/* Page Layout */
+.section {
+    min-height: 100vh;
+  }
+  
